@@ -1,0 +1,47 @@
+﻿@page
+@model Homework_2_Higginbotham.Pages.ResultsModel
+@{
+}
+<h1class> Results </h1class>
+
+<h2>
+
+    <h2 />
+    <table class="myTable table">
+        <thead>
+            <tr>
+                <td>Average U.S. temprature increase over past 30 years</td>
+                <td>Degree in Celsius</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1990's'</td>
+                <td>0.35</td>
+            </tr>
+            <tr>
+                <td>
+                    2000's
+                </td>
+                <td>
+                    0.50
+                </td>
+            <tr>
+                <td>2010's</td>
+                <td>0.63 </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="myTable myRedTable table-striped">
+        <thead>
+            <tr id="tableRow1">
+                <td>Place</td>
+                <td>Rating</td>
+            </tr>
+        </thead>
+    </table>
+    <button type="button" onclick="hideRow()" id="hidebtn">Hide Row</button>
+    <button type="button" onclick="unhideRow()" id="unhidebtn">Unhide Row</button>
+    <script>
+        document.getElementById("unhidebtn").style.display="none"
+    </script>
